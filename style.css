@@ -1,6 +1,47 @@
  /* google fonts */
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+ header{
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+    background: #2D25A0;
+ }
+.header-section{
+    display: flex;
+    flex-direction: row;
+}
+.header-section button{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+}
+.info{
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 120px;
+    top: 207px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.header-logo img{
+    
+    position: absolute;
+    width: 556.01px;
+    height: 438px;
+    left: 600px;
+    top: 153px;
+    
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -22,7 +63,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 330px;
-    height: 474px;
+    /* height: 474px; */
     margin: 0px 30px;
     grid-row-gap: 27px;
     grid-column-gap: 30px;
